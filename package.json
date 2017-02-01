@@ -1,0 +1,34 @@
+{
+  "name": "truffle-soljs-updater",
+  "version": "0.0.1",
+  "description": "Convert old soljs files to Truffle 3.0 (.json)",
+  "main": "sjsu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "sjsu": "./sjsu.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trufflesuite/truffle-soljs-updater.git"
+  },
+  "keywords": [
+    "ethereum",
+    "contracts",
+    "abstractions",
+    "truffle"
+  ],
+  "author": "Tim Coulter <tim.coulter@consensys.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trufflesuite/truffle-soljs-updater/issues"
+  },
+  "homepage": "https://github.com/trufflesuite/truffle-soljs-updater#readme",
+  "dependencies": {
+    "truffle-artifactor": "^2.1.2",
+    "truffle-contract": "^1.1.7",
+    "web3": "^0.18.2",
+    "yargs": "^6.6.0"
+  }
+}
