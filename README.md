@@ -1,4 +1,6 @@
 # truffle-soljs-updater
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/trufflesuite/truffle-soljs-updater.svg)](https://greenkeeper.io/)
 Convert old soljs files to Truffle 3.0 (.json).
 
 This package will provide you with the `sjsu` command to upgrade existing sol.js files to their new JSON format.
